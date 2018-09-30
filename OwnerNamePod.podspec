@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OwnerNamePod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This Pod is used to show blinking owner Name.'
 
 # This description is used to generate tags and improve search results.
