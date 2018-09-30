@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import OwnerNamePod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        CommonFunction.shared.printOwnerName()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -1,9 +1,9 @@
 {
   "name": "OwnerNamePod",
   "version": "0.1.0",
-  "summary": "A short description of OwnerNamePod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/rohitneo002@gmail.com/OwnerNamePod",
+  "summary": "This Pod is used to show blinking owner Name.",
+  "description": "'This Pod is used to show blinking owner Name as Rohitash Prajapati'",
+  "homepage": "https://github.com/rohitneo002/OwnerNamePod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "rohitneo002@gmail.com": "rohitneo002@gmail.com"
   },
   "source": {
-    "git": "https://github.com/rohitneo002@gmail.com/OwnerNamePod.git",
+    "git": "https://github.com/rohitneo002/OwnerNamePod.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "OwnerNamePod/Classes/**/*"
+  "source_files": "OwnerNamePod/Classes/**/*",
+  "swift_version": "4.1"
 }
