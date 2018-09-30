@@ -1,0 +1,22 @@
+{
+  "name": "OwnerNamePod",
+  "version": "0.1.0",
+  "summary": "A short description of OwnerNamePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rohitneo002@gmail.com/OwnerNamePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rohitneo002@gmail.com": "rohitneo002@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rohitneo002@gmail.com/OwnerNamePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OwnerNamePod/Classes/**/*"
+}

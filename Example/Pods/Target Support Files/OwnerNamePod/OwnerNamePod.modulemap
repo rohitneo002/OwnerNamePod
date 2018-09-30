@@ -1,0 +1,6 @@
+framework module OwnerNamePod {
+  umbrella header "OwnerNamePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - OwnerNamePod (0.1.0)
+
+DEPENDENCIES:
+  - OwnerNamePod (from `../`)
+
+EXTERNAL SOURCES:
+  OwnerNamePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OwnerNamePod: 047be3ce53c80fbb71cc5294fdfd5b8add6e5233
+
+PODFILE CHECKSUM: 6879ffd28abb7cea4547b50190410e6f2424fbc5
+
+COCOAPODS: 1.5.3

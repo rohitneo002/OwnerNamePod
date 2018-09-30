@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0AE46B3818FBAD838BBA4A00 /* Pods-OwnerNamePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwnerNamePod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwnerNamePod_Example/Pods-OwnerNamePod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2BEC1DC43BA4D650139ED48E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2CEBDB51FA14E445CC2C2F10 /* OwnerNamePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OwnerNamePod.podspec; path = ../OwnerNamePod.podspec; sourceTree = "<group>"; };
+		2BEC1DC43BA4D650139ED48E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2CEBDB51FA14E445CC2C2F10 /* OwnerNamePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OwnerNamePod.podspec; path = ../OwnerNamePod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2FA2020146FD529AF34BB5A0 /* Pods_OwnerNamePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwnerNamePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* OwnerNamePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwnerNamePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* OwnerNamePod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwnerNamePod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9895EF4703F71BBB243E62A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9895EF4703F71BBB243E62A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BC48F4ABCA696F156D65487D /* Pods-OwnerNamePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwnerNamePod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwnerNamePod_Tests/Pods-OwnerNamePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BD465352843BF73D9DA0B7F1 /* Pods-OwnerNamePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwnerNamePod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OwnerNamePod_Tests/Pods-OwnerNamePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D14D3880531F884C844A9524 /* Pods_OwnerNamePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwnerNamePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -266,15 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OwnerNamePod_Example/Pods-OwnerNamePod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/OwnerNamePod/OwnerNamePod.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OwnerNamePod.framework",
 			);
@@ -288,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-OwnerNamePod_Example-checkManifestLockResult.txt",
 			);
@@ -310,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-OwnerNamePod_Tests-checkManifestLockResult.txt",
 			);
