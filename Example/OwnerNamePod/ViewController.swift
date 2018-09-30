@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         CommonFunction.shared.printOwnerName()
+        CommonFunction.shared.printCompanyName()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

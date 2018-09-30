@@ -10,4 +10,8 @@ public class CommonFunction {
         print("Rohitash Prajapati")
     }
     
+    public func printCompanyName() {
+        print("Neo co.")
+    }
+    
 }
